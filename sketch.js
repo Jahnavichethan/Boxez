@@ -34,6 +34,7 @@ function setup() {
 }  
 
 function draw() {
+    Engine.update(engine);
     rectMode(CENTER);
     background("#A30240")
     
